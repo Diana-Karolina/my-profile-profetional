@@ -1,0 +1,210 @@
+/* Add custom styles for typography, colors, layout, etc. here */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+
+  
+  .text-animation {
+    animation: animateText 3s ease-in-out infinite alternate;
+  }
+  
+  @keyframes animateText {
+    0% {
+      color: #333;
+    }  
+    
+}
+
+/* Fondo translúcido para el header */
+header {
+    background: rgba(0, 0, 0, 0.9);
+    border-bottom: 2px solid #4470eb; /* Línea dorada elegante */
+}
+
+/* Estilos para el texto del logo */
+.navbar {
+    background-color: #007bff;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    color: #2b333f !important; /* Amarillo dorado */
+    transition: color 0.3s;
+}
+
+.navbar-brand:hover {
+    color: #ffffff !important;
+}
+
+/* Estilos para los enlaces del menú */
+
+
+.nav-link {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s, border-bottom 0.3s;
+}
+
+.nav-link:hover {
+    color: #444feb;
+    border-bottom: 2px solid #4470eb;
+}
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+.navbar-toggler:hover .navbar-toggler-icon {
+    transform: rotate(90deg);
+    transition: transform 0.3s ease;
+}
+
+
+/* Home Section */
+.home {
+    background-color: #f0f8ff;
+    padding: 100px 0;
+}
+
+
+.home .home-img img {
+    width: 100%; /* Imagen ocupa todo el ancho del contenedor */
+    max-width: 600px; /* Tamaño máximo para evitar que sea demasiado grande */
+    height: auto; /* Mantiene las proporciones */
+    object-fit: cover; /* Asegura que la imagen se vea bien */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25); /* Sombra elegante */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animación suave */
+}
+
+.home .home-img img:hover {
+    transform: scale(1.05); /* Aumenta ligeramente al pasar el cursor */
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3); /* Sombra más profunda */
+}
+
+
+
+/* Section Wrapper */
+.wrapper.alt.spotlight.style2 {
+    background-color: #343a40; /* Ajusta el color de fondo según sea necesario */
+    color: #fff; /* Color del texto */
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.wrapper {
+    background-color: #2a2e35; /* Color más oscuro */
+    padding: 60px 0;
+}
+
+
+.custom-img {
+    max-width: 400px;
+    border: 4px solid #f0f8ff;
+}
+
+
+
+
+/* Certificados */
+
+
+
+.card-img-top {
+    height: 300px; /* Altura consistente para todas las imágenes */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: transform 0.5s ease, box-shadow 0.5s ease; /* Suavidad en la animación */
+}
+
+.card-img-top:hover {
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño */
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3); /* Añade sombra al efecto */
+}
+
+.card {
+    background-color: #343a40; /* Fondo oscuro */
+    color: #fff; /* Texto claro */
+    border-radius: 10px; /* Bordes redondeados */
+    transition: transform 0.3s, box-shadow 0.3s;
+    overflow: hidden; /* Evitar que las imágenes sobresalgan */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Efecto de zoom */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Sombra elegante */
+}
+
+.card-body {
+    padding: 20px; /* Mejora el espacio interno */
+}
+
+
+
+/* Estilos generales para las tarjetas */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Efecto de elevación */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada */
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+/* Mejorar la legibilidad de la lista */
+.list-unstyled li {
+    margin-bottom: 8px;
+}
+
+/* Responsividad: columnas más pequeñas en pantallas móviles */
+@media (max-width: 768px) {
+    .col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+.section-divider {
+    height: 2px;
+    background-color: #007bff;
+    margin-top: 20px;
+}
+
+.divider {
+    height: 3px;
+    background-color: #007bff;
+}
+
+/* Footer */
+footer {
+    color: #ffffff; /* Texto blanco para buen contraste */
+    background: linear-gradient(45deg, #343a40, #495057); /* Fondo elegante con degradado */
+    padding: 20px;
+    text-align: center; /* Centrado */
+    border-top: 4px solid #212529; /* Línea superior para darle un toque más estilizado */
+    font-family: 'Arial', sans-serif; /* Tipografía sobria */
+}
+
+footer p {
+    margin-bottom: 0;
+    font-size: 14px; /* Tamaño de fuente más pequeño */
+    line-height: 1.6; /* Mejor lectura */
+}

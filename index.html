@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mi portafolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark py-3 shadow fixed-top">
+        <div class="container">
+            <!-- Logo -->
+            <a href="#home" class="navbar-brand text-warning fw-bold fs-4">
+                DevDidi
+            </a>
+            <!-- Botón para el menú móvil -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Menú -->
+            <nav class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link text-white">Inicio</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Estudios
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#two">Bachillerato en Contabilidad</a></li>
+                            <li><a class="dropdown-item" href="#estudios">Desarrollo de Software</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#certificados" class="nav-link text-white">Certificados</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#habilidades" class="nav-link text-white">Habilidades</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a href="#contacto" class="nav-link text-white">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+   
+     <main>
+        <section class="home" id="home">
+            <div class="container d-flex flex-column align-items-center justify-content-center h-100 text-center">
+                <br><br><br><br><br>
+                <h1 class="display-4 fw-bold">Hola!, Soy Dianita</h1>
+                <h3 class="text-animation">Bienvenidos <span></span></h3>
+                <p>
+                    Este es un espacio que llamo Portafolio, donde encontrarás diferentes secciones para conocer un poco 
+                    sobre mis logros y experiencias, tanto académicas como laborales. También podrás descubrir más acerca 
+                    de mis habilidades y competencias. ¡Espero que disfrutes explorando mi sitio! Si te interesa mi experiencia, no dudes en escribirme.
+                </p>
+        
+                <div class="d-flex justify-content-center mt-5">
+                    <a href="mailto:ortegadianakarolina@gmail.com?subject=Consulta%20sobre%20mi%20portafolio&body=Hola%20Dianita,%20me%20interesa%20tu%20portafolio.%20Quisiera%20más%20información." 
+                       class="btn btn-primary me-3">Enviar Email</a>
+                    <a href="https://wa.me/593989495204" 
+                       class="btn btn-outline-primary" 
+                       target="_blank" 
+                       rel="noopener noreferrer">Contáctame</a>
+                </div>
+            </div>
+        
+            <!-- Imagen destacada -->
+            <div class="home-img text-center mt-5">
+                <img src="/image/diplom_Software.jpeg" alt="Dianita Ortega - Profile Picture" class="img-fluid">
+            </div>
+        </section>
+        
+
+       <br>
+       <!-- Two -->
+    <section id="two" class="wrapper py-5 bg-dark text-white position-relative">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Imagen -->
+                <div class="col-md-6 text-center mb-4 mb-md-0">
+                    <img src="/image/bachDiplom.jpeg" alt="Foto de Diana" class="img-fluid rounded-circle shadow custom-img">
+                </div>
+                <!-- Texto -->
+                <div class="col-md-6">
+                    <h2 class="fw-bold">Estudios Bach en Contabilidad</h2>
+                    <p class="mb-4">
+                    Completé mis estudios de bachillerato en Contabilidad en Marzo del 2022. Durante esta etapa, aprendí y apliqué herramientas clave como 
+                    registros contables, elaboración de presupuestos, manejo de Excel, emisión de facturas y cheques, y la gestión de información relacionada con el RUC. 
+                    También realicé investigaciones sobre las características y diferencias entre empresas pequeñas, medianas y grandes, lo que me permitió entender mejor su funcionamiento. 
+                    Además, participé en pasantías donde puse en práctica mis habilidades, adquiriendo experiencia en procesos contables reales y fortaleciendo mi conocimiento en el área.
+                    </p>
+                    <a href="/tituloBach/titulo_contabilidad.pdf" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Ver Título</a>
+
+                </div>
+            </div>
+        </div>
+        <!-- Línea Divisora -->
+        <div class="divider bg-dark position-absolute bottom-0 w-100"></div>
+    </section>
+    
+    <section id="estudios" class="wrapper py-5 text-white position-relative">
+        <div class="container position-relative">
+            <div class="row align-items-center">
+                <!-- Imagen -->
+                <div class="col-md-6 text-center mb-4 mb-md-0">
+                    <img src="/image//eduTecno.jpeg" alt="Foto de Diana" class="img-fluid rounded-circle shadow custom-img">
+                </div>
+                <!-- Texto -->
+                <div class="col-md-6">
+                    <h2 class="fw-bold">Estudios en Desarrollo de Software</h2>
+                    <p class="mb-4">
+                        Durante mis estudios superiores en un tecnólogo de desarrollo de software, adquirí conocimientos fundamentales en diversas áreas del desarrollo. 
+                        Aprendí sobre bases de datos y sus relaciones, lo que me permitió comprender cómo estructurar y gestionar información de manera eficiente. 
+                        También desarrollé habilidades en frontend utilizando HTML y CSS, creando interfaces visualmente atractivas y funcionales. En el backend, obtuve conocimientos básicos de Python, 
+                        y más adelante profundicé en Java, lo que me ayudó a expandir mi perspectiva en el desarrollo de aplicaciones. Antes de iniciar mi carrera, ya tenía sólidos conocimientos en diseño de interfaces 
+                        y experiencia con otros lenguajes de programación, lo que facilitó mi aprendizaje y adaptación al mundo del desarrollo de software.
+                    </p>
+                    <a href="#proyectos" class="btn btn-primary">Ver Proyectos</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="certificados" class="wrapper py-5 text-white">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">Certificados</h2>
+            <div class="row g-4">
+
+                <!-- Certificado 1 -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow border-0">
+                        <img src="/certificadosImg/certScrum.png" alt="Scrum Certificate" class="card-img-top img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary fw-bold">Scrum Foundation</h5>
+                            <p class="card-text">Este certificado valida mi conocimiento en metodologías ágiles, destacando mi capacidad para trabajar en equipo y optimizar procesos de desarrollo.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certificado 2 -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow border-0">
+                        <img src="/certificadosImg/certificado.jpeg" alt="C# with SQL Certificate" class="card-img-top img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary fw-bold">C# y SQL Server</h5>
+                            <p class="card-text">Este logro refleja mis habilidades en desarrollo backend, creación de bases de datos y optimización de sistemas usando C# y SQL Server.</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Certificado 3 -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow border-0">
+                        <img src="/certificadosImg/certJira.jpg" alt="Jira Certificate" class="card-img-top img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary fw-bold">Jira</h5>
+                            <p class="card-text">Este certificado acredita mi capacidad para gestionar proyectos de manera eficiente usando Jira, maximizando la productividad del equipo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="habilidades" class="container mt-5">
+        <h2 class="text-center text-primary fw-bold mb-4">Habilidades</h2>
+        <p class="text-center text-muted mb-5">Tecnologías y Herramientas que uso</p>
+    
+        <div class="row mt-4 g-4">
+            <!-- Diseño UI -->
+            <div class="col-md-6 col-lg-3">
+                <div class="card shadow-lg border-0 rounded-3">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary fw-bold">Diseño UI</h5>
+                        <ul class="list-unstyled">
+                            <li>Figma</li>
+                            <li>Drawio</li>
+                            <li>Canvas</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Frontend Developer -->
+            <div class="col-md-6 col-lg-3">
+                <div class="card shadow-lg border-0 rounded-3">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary fw-bold">Frontend Developer</h5>
+                        <ul class="list-unstyled">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>Bootstrap</li>
+                            <li>React</li>
+                            <li>TypeScript</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Backend Developer -->
+            <div class="col-md-6 col-lg-3">
+                <div class="card shadow-lg border-0 rounded-3">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary fw-bold">Backend Developer</h5>
+                        <ul class="list-unstyled">
+                            <li>C# .NET</li>
+                            <li>Java</li>
+                            <li>Spring Boot</li>
+                        </ul>
+                        <h5 class="card-title text-primary fw-bold mt-4">Bases de Datos</h5>
+                        <ul class="list-unstyled">
+                            <li>MS SQL Server</li>
+                            <li>PostgreSQL</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Otros -->
+            <div class="col-md-6 col-lg-3">
+                <div class="card shadow-lg border-0 rounded-3">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary fw-bold">Otros</h5>
+                        <ul class="list-unstyled">
+                            <li>APIs, API Rest</li>
+                            <li>Git, GitHub</li>
+                            <li>Git Desktop</li>
+                            <li>Teams Dev</li>
+                            <li>Azure (básico)</li>
+                            <li>Postman y Swagger</li>
+                            <li>Microsoft Office</li>
+                        </ul>
+                    </div>
+                </div>
+      
+    </section>
+
+    
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center text-primary fw-bold mb-4">¡Conectemos!</h2>
+            <p class="text-center mb-5">Si deseas ponerte en contacto conmigo, puedes seguirme en las siguientes plataformas:</p>
+            <div class="d-flex justify-content-center gap-4">
+                <!-- WhatsApp -->
+                <a href="https://wa.me/593989495204" target="_blank" rel="noopener noreferrer" class="social-icon">
+                    <i class="fab fa-whatsapp fa-3x text-success"></i>
+                    <p class="mt-2">WhatsApp</p>
+                </a>
+
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/in/diana-karolina-ortega-0654a522b/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3B0ltaoeqATe%2BLSiYPfXIS%2Fw%3D%3D" target="_blank" rel="noopener noreferrer" class="social-icon">
+                    <i class="fab fa-linkedin fa-3x text-primary"></i>
+                    <p class="mt-2">LinkedIn</p>
+                </a>
+
+                <!-- GitHub -->
+                <a href="https://github.com/dianita-ortega" target="_blank" rel="noopener noreferrer" class="social-icon">
+                    <i class="fab fa-github fa-3x text-dark"></i>
+                    <p class="mt-2">GitHub</p>
+                </a>
+
+                <!-- Facebook -->
+                <a href="https://www.facebook.com/dianita.ortega" target="_blank" rel="noopener noreferrer" class="social-icon">
+                    <i class="fab fa-facebook fa-3x text-primary"></i>
+                    <p class="mt-2">Facebook</p>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+   
+    </main>
+    <footer>
+        <p>&copy; 2024 Dianita Ortega. Todos los derechos reservados.</p>
+    </footer>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
