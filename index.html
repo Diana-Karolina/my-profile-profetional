@@ -55,6 +55,8 @@
     
    
      <main>
+      
+        
         <section class="home" id="home">
             <div class="container d-flex flex-column align-items-center justify-content-center h-100 text-center">
                 <br><br><br><br><br>
@@ -76,12 +78,35 @@
                 </div>
             </div>
         
-            <!-- Imagen destacada -->
-            <div class="home-img text-center mt-5">
-                <img src="/image/diplom_Software.jpeg" alt="Dianita Ortega - Profile Picture" class="img-fluid">
+            <!-- Carrusel centrado -->
+            <div class="d-flex justify-content-center align-items-center mt-5">
+                <div id="homeCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="/image/diplom_Software.jpeg" class="d-block" alt="Dianita Ortega - Diploma Software">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/image/bootcamp1erdia.jpeg" class="d-block" alt="Proyecto de Portafolio 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/image/devBootc.jpeg" class="d-block" alt="Proyecto de Portafolio 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/image/graduBootc.jpeg" class="d-block" alt="Proyecto de Portafolio 2">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#homeCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#homeCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
+                </div>
             </div>
         </section>
-        
+          
 
        <br>
        <!-- Two -->
@@ -138,42 +163,59 @@
     <section id="certificados" class="wrapper py-5 text-white">
         <div class="container">
             <h2 class="text-center mb-5 fw-bold">Certificados</h2>
-            <div class="row g-4">
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
 
                 <!-- Certificado 1 -->
-                <div class="col-md-4">
-                    <div class="card h-100 shadow border-0">
-                        <img src="/certificadosImg/certScrum.png" alt="Scrum Certificate" class="card-img-top img-fluid">
-                        <div class="card-body">
-                            <h5 class="card-title text-primary fw-bold">Scrum Foundation</h5>
-                            <p class="card-text">Este certificado valida mi conocimiento en metodologías ágiles, destacando mi capacidad para trabajar en equipo y optimizar procesos de desarrollo.</p>
-                        </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="/certificadosImg/certificado.jpeg" class="card-img-top" alt="certificado">
+                    <div class="card-body">
+                      <h5 class="card-title">Certificado Developer</h5>
+                      <p class="card-text">
+                        He obtenido este certificado tras completar un bootcamp de programación en Épico, donde fortalecí mis habilidades 
+                        en el desarrollo de aplicaciones backend utilizando .NET Core y la gestión de bases de datos con SQL Server. 
+                        Durante el programa, apliqué los conocimientos adquiridos para desarrollar una aplicación web funcional llamada Registro de Empleabilidad</p>
                     </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Marzo del 2023</small>
+                    </div>
+                  </div>
                 </div>
 
                 <!-- Certificado 2 -->
-                <div class="col-md-4">
-                    <div class="card h-100 shadow border-0">
-                        <img src="/certificadosImg/certificado.jpeg" alt="C# with SQL Certificate" class="card-img-top img-fluid">
-                        <div class="card-body">
-                            <h5 class="card-title text-primary fw-bold">C# y SQL Server</h5>
-                            <p class="card-text">Este logro refleja mis habilidades en desarrollo backend, creación de bases de datos y optimización de sistemas usando C# y SQL Server.</p>
-                        </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="/certificadosImg/certScrum.png" class="card-img-top" alt="scrum">
+                    <div class="card-body">
+                      <h5 class="card-title">Certificado Scrum Foundation</h5>
+                      <p class="card-text">
+                        Cuento con experiencia aplicando esta metodología en proyectos. He trabajado con roles,eventos y artefactos de Scrum para mejorar la 
+                        colaboración, gestionar tareas de manera eficiente y garantizar la entrega de productos de calidad, 
+                        adaptándome siempre a las necesidades del equipo y del cliente.</p>
                     </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Mayo del 2024</small>
+                    </div>
+                  </div>
                 </div>
-            
+
                 <!-- Certificado 3 -->
-                <div class="col-md-4">
-                    <div class="card h-100 shadow border-0">
-                        <img src="/certificadosImg/certJira.jpg" alt="Jira Certificate" class="card-img-top img-fluid">
-                        <div class="card-body">
-                            <h5 class="card-title text-primary fw-bold">Jira</h5>
-                            <p class="card-text">Este certificado acredita mi capacidad para gestionar proyectos de manera eficiente usando Jira, maximizando la productividad del equipo.</p>
-                        </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="/certificadosImg/certJira.jpg" class="card-img-top" alt="jira">
+                    <div class="card-body">
+                      <h5 class="card-title">Certificado Jira</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                     </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Agosto 2024</small>
+                    </div>
+                  </div>
                 </div>
-            </div>
+              </div>
         </div>
+            
     </section>
     
     <section id="habilidades" class="container mt-5">
